@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #menu a {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-right: 5px;
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        #menu a:hover {
+            background-color: #eee;
+            border-color: #999;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <div id="menu">
+                    <a href="form.aspx">form.aspx</a>
+                    <a href="about.aspx">about.aspx</a>
+                    <a href="gallery.aspx">gallery.aspx</a>
+                    <a href="register.aspx">register.aspx</a>
+                    <a href="login.aspx">login.aspx</a>
+                    <a href="administration.aspx">administration.aspx</a>
+                    <a href="simplesearch.aspx">simplesearch.aspx</a>
+                    <a href="complicatedsearch.aspx">complicatedsearch.aspx</a>
+                    <a href="simplesearchlike.aspx">simplesearchlike.aspx</a>
+                    <a href="complicatedsearchlike.aspx">complicatedsearchlike.aspx</a>
+                    <a href="detailsUpdate.aspx">detailsUpdate.aspx</a>
+                    <a href="exit.aspx">exit.aspx</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
