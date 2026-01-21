@@ -9,25 +9,25 @@
     <form name="example" method="post" runat="server">
         <table width="50%" border="0">
             <tr>
-                <td>First Name</td>
+                <td>שם פרטי:</td>
                 <td>
                     <input type="text" name="FirstName" id="FirstName">
                 </td>
             </tr>
             <tr>
-                <td> Last Name</td>
+                <td> שם משפחה:</td>
                 <td>
                     <input type="text" name="LastName" id="LastName">
                 </td>
             </tr>
                   <tr>
-          <td>Email </td>
+          <td>אימייל </td>
           <td>
               <input type="text" name="Email id="Email">
           </td>
       </tr>
                   <tr>
-          <td>Password</td>
+          <td>סיסמה</td>
           <td>
               <input type="text" name="Password" id="Password">
           </td>
@@ -35,7 +35,7 @@
            
             <tr>
     <td>
-        <button type ="submit">submit</button>
+        <button type ="submit">הגש</button>
     </td>
 </tr>
 
