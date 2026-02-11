@@ -23,7 +23,7 @@
                   <tr>
           <td>אימייל </td>
           <td>
-              <input type="text" name="Email id="Email">
+              <input type="text" name="Email" id="Email">
           </td>
       </tr>
                   <tr>
@@ -32,6 +32,12 @@
               <input type="text" name="Password" id="Password">
           </td>
       </tr>
+                  <td>גיל </td>
+      <td>
+          <input type="text" name="Age" id="Age">
+      </td>
+  </tr>
+              <tr>
            
             <tr>
     <td>
@@ -42,5 +48,6 @@
         </table>
 
     </form>
+    <%=stResult %>
 </asp:Content>
 
